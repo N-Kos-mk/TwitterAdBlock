@@ -1,0 +1,12 @@
+{
+    "name": "プロモーション消え去れ",
+    "description": "Eロンを許さない",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["https://twitter.com/*", "https://x.com/*"],
+        "js": ["adblock.js"]
+      }
+    ]
+}
